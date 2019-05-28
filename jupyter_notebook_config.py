@@ -1,9 +1,11 @@
 # Configuration file for jupyter-notebook.
 
-c.NotebookApp.ip = '*'
+c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.port = 8888
 c.NotebookApp.open_browser = False
+c.NotebookApp.token = ''
 c.NotebookApp.password = 'sha1:86a03e33e564:c673de45090ff2dd82c8471835d5b8a7cb2e1078'
+c.NotebookApp.allow_root = True
 c.NotebookApp.iopub_data_rate_limit=1000000000
 
 #------------------------------------------------------------------------------
