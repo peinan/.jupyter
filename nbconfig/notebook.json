@@ -1,0 +1,11 @@
+{
+  "Notebook": {
+    "Header": true
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true,
+      "indentUnit": 2
+    }
+  }
+}
