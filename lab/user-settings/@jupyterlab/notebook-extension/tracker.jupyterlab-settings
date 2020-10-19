@@ -1,11 +1,36 @@
 {
+    // Notebook
+    // @jupyterlab/notebook-extension:tracker
+    // Notebook settings.
+    // **************************************
+
+    // Code Cell Configuration
+    // The configuration for all code cells.
     "codeCellConfig": {
-        "lineNumbers": true
+        "lineNumbers": true,
+        "fontFamily": "SF Mono Square",
+        "fontSize": 16,
+        "codeFolding": true
     },
+
+    // Markdown Cell Configuration
+    // The configuration for all markdown cells.
     "markdownCellConfig": {
-        "lineNumbers": true
+        "lineNumbers": true,
+        "fontFamily": "SF Mono Square",
+        "fontSize": 16,
+        "matchBrackets": true
     },
+
+    // Raw Cell Configuration
+    // The configuration for all raw cells.
     "rawCellConfig": {
-        "lineNumbers": true
-    }
+        "lineNumbers": true,
+        "fontFamily": "SF Mono Square",
+        "fontSize": 16
+    },
+
+    // Recording timing
+    // Should timing data be recorded in cell metadata
+    "recordTiming": true
 }

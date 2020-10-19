@@ -8,6 +8,10 @@
     // Configures the keymap to use
     "keyMap": "vim",
 
+    // Style Active Line
+    // Value is boolean, or { nonEmpty: boolean }
+    "styleActiveLine": true,
+
     // Theme
     // CSS file defining the corresponding
     // .cm-s-[name] styles is loaded

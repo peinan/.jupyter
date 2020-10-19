@@ -1,7 +1,30 @@
 {
+    // Terminal
+    // @jupyterlab/terminal-extension:plugin
+    // Terminal settings.
+    // *************************************
+
+    // Font family
+    // The font family used to render text.
     "fontFamily": "SF Mono Square",
+
+    // Font size
+    // The font size used to render text.
     "fontSize": 16,
+
+    // Treat option as meta key on macOS
+    // Option key on macOS can be used as meta key. This enables to use shortcuts such as option + f to move cursor forward one word
     "macOptionIsMeta": true,
+
+    // Scrollback Buffer
+    // The amount of scrollback beyond initial viewport
     "scrollback": 10000,
-    "shutdownOnClose": true
+
+    // Shut down on close
+    // Shut down the session when closing the terminal.
+    "shutdownOnClose": false,
+
+    // Theme
+    // The theme for the terminal.
+    "theme": "inherit"
 }
