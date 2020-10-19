@@ -1,0 +1,7 @@
+{
+    "fontFamily": "SF Mono Square",
+    "fontSize": 16,
+    "macOptionIsMeta": true,
+    "scrollback": 10000,
+    "shutdownOnClose": true
+}
